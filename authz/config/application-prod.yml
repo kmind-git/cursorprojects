@@ -1,0 +1,64 @@
+server:
+  # 濡傞渶鎹㈢鍙ｏ紝鏀硅繖閲屽嵆鍙?
+  port: 8080
+  forward-headers-strategy: framework
+
+spring:
+  application:
+    name: authz
+
+  datasource:
+    # 鍥哄畾 MySQL锛堟寜浣犵殑鐢熶骇搴撳～鍐欙級
+    # 绀轰緥锛歫dbc:mysql://127.0.0.1:3306/authz?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    url: jdbc:mysql://10.189.111.200:33061/authz?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: cursor
+    password: "cloud_cursor"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        # 浣犵殑鐜鐩墠鎸?MySQL 5.7 鏂硅█閰嶇疆
+        dialect: org.hibernate.dialect.MySQL57Dialect
+        format_sql: false
+    open-in-view: false
+
+  flyway:
+    enabled: true
+    # 搴撲腑宸叉湁鎵嬪伐/鏃х増寤鸿〃锛屼絾娌℃湁 flyway_schema_history 鏃跺繀椤诲紑鍚紝鍚﹀垯浼氭姤锛?
+    # Found non-empty schema ... but no schema history table
+    baseline-on-migrate: true
+
+app:
+  security:
+    cors:
+      allowed-origins:
+        - "http://localhost:5173"
+        - "http://127.0.0.1:5173"
+        - "http://localhost:4173"
+        - "http://127.0.0.1:4173"
+        - "http://localhost"
+        - "http://127.0.0.1"
+        - "http://localhost:80"
+        - "http://127.0.0.1:80"
+        - "http://localhost:8088"
+        - "http://127.0.0.1:8088"
+    jwt:
+      issuer: "authz"
+      access-ttl-seconds: 900
+      # 鐢熶骇蹇呴』鏇挎崲涓哄己闅忔満瀛楃涓诧紙涓嶈娌跨敤榛樿鍊硷級
+      secret: "CHANGE_ME_CHANGE_ME_CHANGE_ME_CHANGE_ME_CHANGE_ME_CHANGE_ME"
+    refresh:
+      ttl-days: 14
+      cookie-name: "refresh_token"
+    csrf:
+      cookie-name: "csrf_token"
+      header-name: "X-CSRF-Token"
+
+logging:
+  level:
+    com.example.authz: INFO
+    org.springframework.security: INFO
+

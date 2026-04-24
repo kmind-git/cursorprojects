@@ -1,0 +1,11 @@
+HTTP=200
+id=24
+username=u_roles_1776309698294
+responseJson={
+  "id" : 24,
+  "username" : "u_roles_1776309698294",
+  "status" : "ACTIVE",
+  "roles" : [ "SUPER_ADMIN" ]
+}
+verifySql1=SELECT id, code FROM sys_role WHERE code='SUPER_ADMIN';
+verifySql2=SELECT * FROM sys_user_role WHERE user_id=24;

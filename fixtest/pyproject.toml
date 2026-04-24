@@ -1,0 +1,16 @@
+[project]
+name = "fixtest"
+version = "0.1.0"
+description = "Minimal FIX 4.4 initiator client using QuickFIX Python bindings."
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

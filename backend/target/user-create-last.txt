@@ -1,0 +1,10 @@
+HTTP=200
+id=18
+username=u_create_1776308773822
+responseJson={
+  "id" : 18,
+  "username" : "u_create_1776308773822",
+  "status" : "ACTIVE",
+  "roles" : [ ]
+}
+verifySql=SELECT id, username, status, password_hash FROM sys_user WHERE id=18;

@@ -1,0 +1,1165 @@
+# Created at 2026-04-16T10:35:52.787
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2026-04-16T10:35:52.787
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:52.787
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2026-04-16T10:35:52.803
+Unexpected IOException with stream:       HTTP Method = GET
+
+
+# Created at 2026-04-16T10:35:52.803
+Unexpected IOException with stream:       Request URI = /api/users
+
+
+# Created at 2026-04-16T10:35:52.803
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2026-04-16T10:35:52.819
+Unexpected IOException with stream:           Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoeiIsInN1YiI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwicGVybXMiOlsidXNlcjpyZWFkIiwidXNlcjpjcmVhdGUiLCJ1c2VyOnVwZGF0ZSIsInVzZXI6ZGVsZXRlIiwidXNlcjphc3NpZ25Sb2xlIl0sImlhdCI6MTc3NjMwNjkzNywiZXhwIjoxNzc2MzA3ODM3fQ.OSw451NIsfCLGWQEwGxO4SdvMb0AQprcJkBu5X7J9p0"]
+
+
+# Created at 2026-04-16T10:35:52.819
+Unexpected IOException with stream:              Body = null
+
+
+# Created at 2026-04-16T10:35:52.819
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2026-04-16T10:35:52.834
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:52.834
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2026-04-16T10:35:52.834
+Unexpected IOException with stream:              Type = com.example.authz.api.admin.UserAdminController
+
+
+# Created at 2026-04-16T10:35:52.850
+Unexpected IOException with stream:            Method = com.example.authz.api.admin.UserAdminController#list()
+
+
+# Created at 2026-04-16T10:35:52.850
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:52.865
+Unexpected IOException with stream: Async:
+
+
+# Created at 2026-04-16T10:35:52.885
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2026-04-16T10:35:52.893
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2026-04-16T10:35:52.897
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:52.902
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2026-04-16T10:35:52.912
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2026-04-16T10:35:52.918
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:52.921
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2026-04-16T10:35:52.929
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2026-04-16T10:35:52.935
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2026-04-16T10:35:52.938
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2026-04-16T10:35:52.974
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:52.988
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2026-04-16T10:35:53.002
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2026-04-16T10:35:53.005
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.011
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2026-04-16T10:35:53.015
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2026-04-16T10:35:53.021
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2026-04-16T10:35:53.028
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"SAMEORIGIN"]
+
+
+# Created at 2026-04-16T10:35:53.033
+Unexpected IOException with stream:      Content type = application/json
+
+
+# Created at 2026-04-16T10:35:53.037
+Unexpected IOException with stream:              Body = [{"id":1,"username":"admin","status":"ACTIVE","roles":["SUPER_ADMIN"]},{"id":2,"username":"123","status":"ACTIVE","roles":[]}]
+
+
+# Created at 2026-04-16T10:35:53.040
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2026-04-16T10:35:53.040
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2026-04-16T10:35:53.040
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2026-04-16T10:35:53.071
+Unexpected IOException: 7,1,com.example.authz.UserManagementApiOrderedIT,step01_listUsers,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,UserManagementApiOrderedIT.step01_listUsers:190->pauseAfterStep:134->readLineBlocking:141 IllegalState,java.lang.IllegalStateException: \5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002\000A\0009at com.example.authz.UserManagementApiOrderedIT.readLineBlocking(UserManagementApiOrderedIT.java:141)\000A\0009at com.example.authz.UserManagementApiOrderedIT.pauseAfterStep(UserManagementApiOrderedIT.java:134)\000A\0009at com.example.authz.UserManagementApiOrderedIT.step01_listUsers(UserManagementApiOrderedIT.java:190)\000A
+
+
+# Created at 2026-04-16T10:35:53.087
+Unexpected IOException: 5,1,com.example.authz.UserManagementApiOrderedIT,step02_createUser,null,null,null
+
+
+# Created at 2026-04-16T10:35:53.102
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.118
+Unexpected IOException with stream: ---------- 步骤 2：新建用户（记下 id / username，后续步骤依赖此用户） ----------
+
+
+# Created at 2026-04-16T10:35:53.353
+Unexpected IOException with stream: 2026-04-16 10:35:53.353  INFO 17660 --- [           main] com.example.authz.web.AccessLogFilter    : POST /api/users 200 235ms
+
+
+# Created at 2026-04-16T10:35:53.368
+Unexpected IOException with stream: HTTP 200，新建 id=13 username=um_step_1776306953118 status=ACTIVE。
+
+
+# Created at 2026-04-16T10:35:53.368
+Unexpected IOException with stream: 核对表 sys_user：SELECT * FROM sys_user WHERE id=13 OR username='um_step_1776306953118';
+
+
+# Created at 2026-04-16T10:35:53.384
+Unexpected IOException with stream: （建议用）SELECT * FROM sys_user WHERE username='um_step_1776306953118';
+
+
+# Created at 2026-04-16T10:35:53.384
+Unexpected IOException with stream: 若分多次运行：步骤 3～7 单独执行时请加 -Dauthz.flow.userId=13
+
+
+# Created at 2026-04-16T10:35:53.399
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.399
+Unexpected IOException with stream: >>> [等待确认] 已完成：步骤2 新建 POST /api/users
+
+
+# Created at 2026-04-16T10:35:53.399
+Unexpected IOException with stream: >>> 请在库中核对：sys_user 存在 id=13、username=um_step_1776306953118、status=ACTIVE
+
+
+# Created at 2026-04-16T10:35:53.415
+Unexpected IOException with stream: >>> 核对无误后，在本窗口按一次回车键，再开始下一步…
+
+
+# Created at 2026-04-16T10:35:53.415
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.415
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2026-04-16T10:35:53.446
+Unexpected IOException with stream:       HTTP Method = POST
+
+
+# Created at 2026-04-16T10:35:53.446
+Unexpected IOException with stream:       Request URI = /api/users
+
+
+# Created at 2026-04-16T10:35:53.446
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2026-04-16T10:35:53.462
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoeiIsInN1YiI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwicGVybXMiOlsidXNlcjpyZWFkIiwidXNlcjpjcmVhdGUiLCJ1c2VyOnVwZGF0ZSIsInVzZXI6ZGVsZXRlIiwidXNlcjphc3NpZ25Sb2xlIl0sImlhdCI6MTc3NjMwNjkzNywiZXhwIjoxNzc2MzA3ODM3fQ.OSw451NIsfCLGWQEwGxO4SdvMb0AQprcJkBu5X7J9p0", Content-Length:"61"]
+
+
+# Created at 2026-04-16T10:35:53.462
+Unexpected IOException with stream:              Body = {"username":"um_step_1776306953118","password":"InitPass999"}
+
+
+# Created at 2026-04-16T10:35:53.462
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2026-04-16T10:35:53.477
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.477
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2026-04-16T10:35:53.477
+Unexpected IOException with stream:              Type = com.example.authz.api.admin.UserAdminController
+
+
+# Created at 2026-04-16T10:35:53.493
+Unexpected IOException with stream:            Method = com.example.authz.api.admin.UserAdminController#create(CreateUserRequest)
+
+
+# Created at 2026-04-16T10:35:53.493
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.493
+Unexpected IOException with stream: Async:
+
+
+# Created at 2026-04-16T10:35:53.509
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2026-04-16T10:35:53.509
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2026-04-16T10:35:53.509
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.524
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2026-04-16T10:35:53.524
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2026-04-16T10:35:53.540
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.540
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2026-04-16T10:35:53.540
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2026-04-16T10:35:53.556
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2026-04-16T10:35:53.556
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2026-04-16T10:35:53.571
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.571
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2026-04-16T10:35:53.571
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2026-04-16T10:35:53.587
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.587
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2026-04-16T10:35:53.587
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2026-04-16T10:35:53.602
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2026-04-16T10:35:53.602
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"SAMEORIGIN"]
+
+
+# Created at 2026-04-16T10:35:53.602
+Unexpected IOException with stream:      Content type = application/json
+
+
+# Created at 2026-04-16T10:35:53.618
+Unexpected IOException with stream:              Body = {"id":13,"username":"um_step_1776306953118","status":"ACTIVE","roles":[]}
+
+
+# Created at 2026-04-16T10:35:53.618
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2026-04-16T10:35:53.618
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2026-04-16T10:35:53.634
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2026-04-16T10:35:53.634
+Unexpected IOException: 7,1,com.example.authz.UserManagementApiOrderedIT,step02_createUser,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,UserManagementApiOrderedIT.step02_createUser:235->pauseAfterStep:134->readLineBlocking:141 IllegalState,java.lang.IllegalStateException: \5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002\000A\0009at com.example.authz.UserManagementApiOrderedIT.readLineBlocking(UserManagementApiOrderedIT.java:141)\000A\0009at com.example.authz.UserManagementApiOrderedIT.pauseAfterStep(UserManagementApiOrderedIT.java:134)\000A\0009at com.example.authz.UserManagementApiOrderedIT.step02_createUser(UserManagementApiOrderedIT.java:235)\000A
+
+
+# Created at 2026-04-16T10:35:53.649
+Unexpected IOException: 5,1,com.example.authz.UserManagementApiOrderedIT,step03_statusDisabled,null,null,null
+
+
+# Created at 2026-04-16T10:35:53.665
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.665
+Unexpected IOException with stream: ---------- 步骤 3：改为 DISABLED ----------
+
+
+# Created at 2026-04-16T10:35:53.774
+Unexpected IOException with stream: 2026-04-16 10:35:53.774  INFO 17660 --- [           main] com.example.authz.web.AccessLogFilter    : PATCH /api/users/13/status 200 93ms
+
+
+# Created at 2026-04-16T10:35:53.774
+Unexpected IOException with stream: HTTP 200，响应 status=DISABLED。
+
+
+# Created at 2026-04-16T10:35:53.790
+Unexpected IOException with stream: 核对表 sys_user：SELECT id, status FROM sys_user WHERE id=13 — 应为 DISABLED
+
+
+# Created at 2026-04-16T10:35:53.790
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.790
+Unexpected IOException with stream: >>> [等待确认] 已完成：步骤3 禁用 PATCH .../status=DISABLED
+
+
+# Created at 2026-04-16T10:35:53.790
+Unexpected IOException with stream: >>> 请在库中核对：sys_user.id=13 的 status 应为 DISABLED
+
+
+# Created at 2026-04-16T10:35:53.806
+Unexpected IOException with stream: >>> 核对无误后，在本窗口按一次回车键，再开始下一步…
+
+
+# Created at 2026-04-16T10:35:53.806
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.806
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2026-04-16T10:35:53.821
+Unexpected IOException with stream:       HTTP Method = PATCH
+
+
+# Created at 2026-04-16T10:35:53.821
+Unexpected IOException with stream:       Request URI = /api/users/13/status
+
+
+# Created at 2026-04-16T10:35:53.821
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2026-04-16T10:35:53.821
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoeiIsInN1YiI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwicGVybXMiOlsidXNlcjpyZWFkIiwidXNlcjpjcmVhdGUiLCJ1c2VyOnVwZGF0ZSIsInVzZXI6ZGVsZXRlIiwidXNlcjphc3NpZ25Sb2xlIl0sImlhdCI6MTc3NjMwNjkzNywiZXhwIjoxNzc2MzA3ODM3fQ.OSw451NIsfCLGWQEwGxO4SdvMb0AQprcJkBu5X7J9p0", Content-Length:"21"]
+
+
+# Created at 2026-04-16T10:35:53.837
+Unexpected IOException with stream:              Body = {"status":"DISABLED"}
+
+
+# Created at 2026-04-16T10:35:53.837
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2026-04-16T10:35:53.837
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.852
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2026-04-16T10:35:53.852
+Unexpected IOException with stream:              Type = com.example.authz.api.admin.UserAdminController
+
+
+# Created at 2026-04-16T10:35:53.852
+Unexpected IOException with stream:            Method = com.example.authz.api.admin.UserAdminController#updateStatus(Long, UpdateUserStatusRequest)
+
+
+# Created at 2026-04-16T10:35:53.868
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.868
+Unexpected IOException with stream: Async:
+
+
+# Created at 2026-04-16T10:35:53.868
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2026-04-16T10:35:53.884
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2026-04-16T10:35:53.884
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.884
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2026-04-16T10:35:53.899
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2026-04-16T10:35:53.899
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.899
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2026-04-16T10:35:53.915
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2026-04-16T10:35:53.915
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2026-04-16T10:35:53.915
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2026-04-16T10:35:53.915
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.931
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2026-04-16T10:35:53.931
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2026-04-16T10:35:53.931
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:53.946
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2026-04-16T10:35:53.946
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2026-04-16T10:35:53.946
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2026-04-16T10:35:53.962
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"SAMEORIGIN"]
+
+
+# Created at 2026-04-16T10:35:53.962
+Unexpected IOException with stream:      Content type = application/json
+
+
+# Created at 2026-04-16T10:35:53.962
+Unexpected IOException with stream:              Body = {"id":13,"username":"um_step_1776306953118","status":"DISABLED","roles":[]}
+
+
+# Created at 2026-04-16T10:35:53.977
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2026-04-16T10:35:53.977
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2026-04-16T10:35:53.977
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2026-04-16T10:35:53.993
+Unexpected IOException: 7,1,com.example.authz.UserManagementApiOrderedIT,step03_statusDisabled,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,UserManagementApiOrderedIT.step03_statusDisabled:265->pauseAfterStep:134->readLineBlocking:141 IllegalState,java.lang.IllegalStateException: \5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002\000A\0009at com.example.authz.UserManagementApiOrderedIT.readLineBlocking(UserManagementApiOrderedIT.java:141)\000A\0009at com.example.authz.UserManagementApiOrderedIT.pauseAfterStep(UserManagementApiOrderedIT.java:134)\000A\0009at com.example.authz.UserManagementApiOrderedIT.step03_statusDisabled(UserManagementApiOrderedIT.java:265)\000A
+
+
+# Created at 2026-04-16T10:35:53.993
+Unexpected IOException: 5,1,com.example.authz.UserManagementApiOrderedIT,step04_statusActive,null,null,null
+
+
+# Created at 2026-04-16T10:35:54.009
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.009
+Unexpected IOException with stream: ---------- 步骤 4：改回 ACTIVE ----------
+
+
+# Created at 2026-04-16T10:35:54.118
+Unexpected IOException with stream: 2026-04-16 10:35:54.118  INFO 17660 --- [           main] com.example.authz.web.AccessLogFilter    : PATCH /api/users/13/status 200 109ms
+
+
+# Created at 2026-04-16T10:35:54.142
+Unexpected IOException with stream: HTTP 200。
+
+
+# Created at 2026-04-16T10:35:54.148
+Unexpected IOException with stream: 核对表 sys_user：SELECT id, status FROM sys_user WHERE id=13 — 应为 ACTIVE
+
+
+# Created at 2026-04-16T10:35:54.156
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.164
+Unexpected IOException with stream: >>> [等待确认] 已完成：步骤4 启用 PATCH .../status=ACTIVE
+
+
+# Created at 2026-04-16T10:35:54.170
+Unexpected IOException with stream: >>> 请在库中核对：sys_user.id=13 的 status 应为 ACTIVE
+
+
+# Created at 2026-04-16T10:35:54.179
+Unexpected IOException with stream: >>> 核对无误后，在本窗口按一次回车键，再开始下一步…
+
+
+# Created at 2026-04-16T10:35:54.186
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.193
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2026-04-16T10:35:54.199
+Unexpected IOException with stream:       HTTP Method = PATCH
+
+
+# Created at 2026-04-16T10:35:54.204
+Unexpected IOException with stream:       Request URI = /api/users/13/status
+
+
+# Created at 2026-04-16T10:35:54.211
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2026-04-16T10:35:54.226
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoeiIsInN1YiI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwicGVybXMiOlsidXNlcjpyZWFkIiwidXNlcjpjcmVhdGUiLCJ1c2VyOnVwZGF0ZSIsInVzZXI6ZGVsZXRlIiwidXNlcjphc3NpZ25Sb2xlIl0sImlhdCI6MTc3NjMwNjkzNywiZXhwIjoxNzc2MzA3ODM3fQ.OSw451NIsfCLGWQEwGxO4SdvMb0AQprcJkBu5X7J9p0", Content-Length:"19"]
+
+
+# Created at 2026-04-16T10:35:54.232
+Unexpected IOException with stream:              Body = {"status":"ACTIVE"}
+
+
+# Created at 2026-04-16T10:35:54.236
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2026-04-16T10:35:54.253
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.264
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2026-04-16T10:35:54.269
+Unexpected IOException with stream:              Type = com.example.authz.api.admin.UserAdminController
+
+
+# Created at 2026-04-16T10:35:54.274
+Unexpected IOException with stream:            Method = com.example.authz.api.admin.UserAdminController#updateStatus(Long, UpdateUserStatusRequest)
+
+
+# Created at 2026-04-16T10:35:54.281
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.287
+Unexpected IOException with stream: Async:
+
+
+# Created at 2026-04-16T10:35:54.297
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2026-04-16T10:35:54.301
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2026-04-16T10:35:54.306
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.314
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2026-04-16T10:35:54.319
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2026-04-16T10:35:54.324
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.331
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2026-04-16T10:35:54.336
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2026-04-16T10:35:54.340
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2026-04-16T10:35:54.348
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2026-04-16T10:35:54.353
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.362
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2026-04-16T10:35:54.369
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2026-04-16T10:35:54.377
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.383
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2026-04-16T10:35:54.391
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2026-04-16T10:35:54.395
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2026-04-16T10:35:54.400
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"SAMEORIGIN"]
+
+
+# Created at 2026-04-16T10:35:54.413
+Unexpected IOException with stream:      Content type = application/json
+
+
+# Created at 2026-04-16T10:35:54.413
+Unexpected IOException with stream:              Body = {"id":13,"username":"um_step_1776306953118","status":"ACTIVE","roles":[]}
+
+
+# Created at 2026-04-16T10:35:54.425
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2026-04-16T10:35:54.425
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2026-04-16T10:35:54.425
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2026-04-16T10:35:54.445
+Unexpected IOException: 7,1,com.example.authz.UserManagementApiOrderedIT,step04_statusActive,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,UserManagementApiOrderedIT.step04_statusActive:286->pauseAfterStep:134->readLineBlocking:141 IllegalState,java.lang.IllegalStateException: \5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002\000A\0009at com.example.authz.UserManagementApiOrderedIT.readLineBlocking(UserManagementApiOrderedIT.java:141)\000A\0009at com.example.authz.UserManagementApiOrderedIT.pauseAfterStep(UserManagementApiOrderedIT.java:134)\000A\0009at com.example.authz.UserManagementApiOrderedIT.step04_statusActive(UserManagementApiOrderedIT.java:286)\000A
+
+
+# Created at 2026-04-16T10:35:54.458
+Unexpected IOException: 5,1,com.example.authz.UserManagementApiOrderedIT,step05_resetPassword,null,null,null
+
+
+# Created at 2026-04-16T10:35:54.464
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.464
+Unexpected IOException with stream: ---------- 步骤 5：重置密码 ----------
+
+
+# Created at 2026-04-16T10:35:54.590
+Unexpected IOException with stream: 2026-04-16 10:35:54.590  INFO 17660 --- [           main] com.example.authz.web.AccessLogFilter    : POST /api/users/13/reset-password 200 110ms
+
+
+# Created at 2026-04-16T10:35:54.606
+Unexpected IOException with stream: HTTP 200（空响应体）。
+
+
+# Created at 2026-04-16T10:35:54.606
+Unexpected IOException with stream: 核对表 sys_user：对比 id=13 的 password_hash 是否已更新（无明文列，可看哈希变化）
+
+
+# Created at 2026-04-16T10:35:54.622
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.622
+Unexpected IOException with stream: >>> [等待确认] 已完成：步骤5 重置密码 POST .../reset-password
+
+
+# Created at 2026-04-16T10:35:54.622
+Unexpected IOException with stream: >>> 请在库中核对：sys_user.id=13 的 password_hash 应与重置前不同
+
+
+# Created at 2026-04-16T10:35:54.637
+Unexpected IOException with stream: >>> 核对无误后，在本窗口按一次回车键，再开始下一步…
+
+
+# Created at 2026-04-16T10:35:54.653
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.653
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2026-04-16T10:35:54.653
+Unexpected IOException with stream:       HTTP Method = POST
+
+
+# Created at 2026-04-16T10:35:54.669
+Unexpected IOException with stream:       Request URI = /api/users/13/reset-password
+
+
+# Created at 2026-04-16T10:35:54.669
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2026-04-16T10:35:54.669
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoeiIsInN1YiI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwicGVybXMiOlsidXNlcjpyZWFkIiwidXNlcjpjcmVhdGUiLCJ1c2VyOnVwZGF0ZSIsInVzZXI6ZGVsZXRlIiwidXNlcjphc3NpZ25Sb2xlIl0sImlhdCI6MTc3NjMwNjkzNywiZXhwIjoxNzc2MzA3ODM3fQ.OSw451NIsfCLGWQEwGxO4SdvMb0AQprcJkBu5X7J9p0", Content-Length:"30"]
+
+
+# Created at 2026-04-16T10:35:54.686
+Unexpected IOException with stream:              Body = {"newPassword":"ResetPass888"}
+
+
+# Created at 2026-04-16T10:35:54.694
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2026-04-16T10:35:54.699
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.706
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2026-04-16T10:35:54.709
+Unexpected IOException with stream:              Type = com.example.authz.api.admin.UserAdminController
+
+
+# Created at 2026-04-16T10:35:54.709
+Unexpected IOException with stream:            Method = com.example.authz.api.admin.UserAdminController#resetPassword(Long, ResetPasswordRequest)
+
+
+# Created at 2026-04-16T10:35:54.709
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.725
+Unexpected IOException with stream: Async:
+
+
+# Created at 2026-04-16T10:35:54.725
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2026-04-16T10:35:54.725
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2026-04-16T10:35:54.748
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.755
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2026-04-16T10:35:54.761
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2026-04-16T10:35:54.766
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.772
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2026-04-16T10:35:54.780
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2026-04-16T10:35:54.785
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2026-04-16T10:35:54.792
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2026-04-16T10:35:54.797
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.802
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2026-04-16T10:35:54.808
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2026-04-16T10:35:54.813
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.817
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2026-04-16T10:35:54.828
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2026-04-16T10:35:54.830
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2026-04-16T10:35:54.830
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"SAMEORIGIN"]
+
+
+# Created at 2026-04-16T10:35:54.848
+Unexpected IOException with stream:      Content type = null
+
+
+# Created at 2026-04-16T10:35:54.848
+Unexpected IOException with stream:              Body = 
+
+
+# Created at 2026-04-16T10:35:54.848
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2026-04-16T10:35:54.863
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2026-04-16T10:35:54.863
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2026-04-16T10:35:54.880
+Unexpected IOException: 7,1,com.example.authz.UserManagementApiOrderedIT,step05_resetPassword,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,UserManagementApiOrderedIT.step05_resetPassword:309->pauseAfterStep:134->readLineBlocking:141 IllegalState,java.lang.IllegalStateException: \5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002\000A\0009at com.example.authz.UserManagementApiOrderedIT.readLineBlocking(UserManagementApiOrderedIT.java:141)\000A\0009at com.example.authz.UserManagementApiOrderedIT.pauseAfterStep(UserManagementApiOrderedIT.java:134)\000A\0009at com.example.authz.UserManagementApiOrderedIT.step05_resetPassword(UserManagementApiOrderedIT.java:309)\000A
+
+
+# Created at 2026-04-16T10:35:54.896
+Unexpected IOException: 5,1,com.example.authz.UserManagementApiOrderedIT,step06_assignRoles,null,null,null
+
+
+# Created at 2026-04-16T10:35:54.899
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:54.911
+Unexpected IOException with stream: ---------- 步骤 6：分配 SUPER_ADMIN ----------
+
+
+# Created at 2026-04-16T10:35:55.085
+Unexpected IOException with stream: 2026-04-16 10:35:55.085  INFO 17660 --- [           main] com.example.authz.web.AccessLogFilter    : POST /api/users/13/roles 200 165ms
+
+
+# Created at 2026-04-16T10:35:55.100
+Unexpected IOException with stream: HTTP 200，响应 roles 含 SUPER_ADMIN。
+
+
+# Created at 2026-04-16T10:35:55.100
+Unexpected IOException with stream: 核对表 sys_user_role：SELECT * FROM sys_user_role WHERE user_id=13;
+
+
+# Created at 2026-04-16T10:35:55.100
+Unexpected IOException with stream: 核对表 sys_role：SELECT id, code FROM sys_role WHERE code='SUPER_ADMIN';（与上一表的 role_id 对应）
+
+
+# Created at 2026-04-16T10:35:55.116
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.116
+Unexpected IOException with stream: >>> [等待确认] 已完成：步骤6 分配角色 POST .../roles（SUPER_ADMIN）
+
+
+# Created at 2026-04-16T10:35:55.131
+Unexpected IOException with stream: >>> 请在库中核对：sys_user_role.user_id=13；下一步将执行步骤 7：DELETE 删除用户 id=13（按回车即继续，不可恢复）
+
+
+# Created at 2026-04-16T10:35:55.131
+Unexpected IOException with stream: >>> 核对无误后，在本窗口按一次回车键，再开始下一步…
+
+
+# Created at 2026-04-16T10:35:55.131
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.147
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2026-04-16T10:35:55.147
+Unexpected IOException with stream:       HTTP Method = POST
+
+
+# Created at 2026-04-16T10:35:55.147
+Unexpected IOException with stream:       Request URI = /api/users/13/roles
+
+
+# Created at 2026-04-16T10:35:55.163
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2026-04-16T10:35:55.163
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoeiIsInN1YiI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwicGVybXMiOlsidXNlcjpyZWFkIiwidXNlcjpjcmVhdGUiLCJ1c2VyOnVwZGF0ZSIsInVzZXI6ZGVsZXRlIiwidXNlcjphc3NpZ25Sb2xlIl0sImlhdCI6MTc3NjMwNjkzNywiZXhwIjoxNzc2MzA3ODM3fQ.OSw451NIsfCLGWQEwGxO4SdvMb0AQprcJkBu5X7J9p0", Content-Length:"29"]
+
+
+# Created at 2026-04-16T10:35:55.163
+Unexpected IOException with stream:              Body = {"roleCodes":["SUPER_ADMIN"]}
+
+
+# Created at 2026-04-16T10:35:55.163
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2026-04-16T10:35:55.178
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.178
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2026-04-16T10:35:55.178
+Unexpected IOException with stream:              Type = com.example.authz.api.admin.UserAdminController
+
+
+# Created at 2026-04-16T10:35:55.194
+Unexpected IOException with stream:            Method = com.example.authz.api.admin.UserAdminController#assignRoles(Long, AssignRolesRequest)
+
+
+# Created at 2026-04-16T10:35:55.194
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.194
+Unexpected IOException with stream: Async:
+
+
+# Created at 2026-04-16T10:35:55.213
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2026-04-16T10:35:55.213
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2026-04-16T10:35:55.226
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.231
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2026-04-16T10:35:55.236
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2026-04-16T10:35:55.241
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.242
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2026-04-16T10:35:55.242
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2026-04-16T10:35:55.262
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2026-04-16T10:35:55.267
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2026-04-16T10:35:55.273
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.277
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2026-04-16T10:35:55.277
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2026-04-16T10:35:55.293
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.293
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2026-04-16T10:35:55.312
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2026-04-16T10:35:55.317
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2026-04-16T10:35:55.321
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"SAMEORIGIN"]
+
+
+# Created at 2026-04-16T10:35:55.328
+Unexpected IOException with stream:      Content type = application/json
+
+
+# Created at 2026-04-16T10:35:55.334
+Unexpected IOException with stream:              Body = {"id":13,"username":"um_step_1776306953118","status":"ACTIVE","roles":["SUPER_ADMIN"]}
+
+
+# Created at 2026-04-16T10:35:55.339
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2026-04-16T10:35:55.348
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2026-04-16T10:35:55.363
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2026-04-16T10:35:55.383
+Unexpected IOException: 7,1,com.example.authz.UserManagementApiOrderedIT,step06_assignRoles,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,null,\5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002,UserManagementApiOrderedIT.step06_assignRoles:338->pauseAfterStep:134->readLineBlocking:141 IllegalState,java.lang.IllegalStateException: \5DF2\542F\7528 -Dauthz.flow.pause=true\FF0C\4F46\672A\4ECE\6807\51C6\8F93\5165\8BFB\5230\4E00\884C\FF08\5E38\89C1\4E8E\975E\4EA4\4E92\8FD0\884C\FF09\3002\8BF7\5728\672C\673A\7EC8\7AEF\6267\884C\FF1Amvn test -Dtest=UserManagementApiOrderedIT -Dauthz.flow.pause=true\FF1B\6216\5173\95ED\6682\505C\FF08\53BB\6389\8BE5 JVM \53C2\6570\FF09\3002\000A\0009at com.example.authz.UserManagementApiOrderedIT.readLineBlocking(UserManagementApiOrderedIT.java:141)\000A\0009at com.example.authz.UserManagementApiOrderedIT.pauseAfterStep(UserManagementApiOrderedIT.java:134)\000A\0009at com.example.authz.UserManagementApiOrderedIT.step06_assignRoles(UserManagementApiOrderedIT.java:338)\000A
+
+
+# Created at 2026-04-16T10:35:55.393
+Unexpected IOException: 5,1,com.example.authz.UserManagementApiOrderedIT,step07_deleteUser,null,null,null
+
+
+# Created at 2026-04-16T10:35:55.393
+Unexpected IOException with stream: 
+
+
+# Created at 2026-04-16T10:35:55.409
+Unexpected IOException with stream: ---------- 步骤 7：删除用户 ----------
+
+
+# Created at 2026-04-16T10:35:55.502
+Unexpected IOException with stream: 2026-04-16 10:35:55.502  INFO 17660 --- [           main] com.example.authz.web.AccessLogFilter    : DELETE /api/users/13 200 93ms
+
+
+# Created at 2026-04-16T10:35:55.534
+Unexpected IOException with stream: HTTP 200，本地仓库已查无该 id。
+
+
+# Created at 2026-04-16T10:35:55.538
+Unexpected IOException with stream: 核对表 sys_user：无 id=13；sys_user_role：无 user_id=13
+
+
+# Created at 2026-04-16T10:35:55.538
+Unexpected IOException: 6,1,com.example.authz.UserManagementApiOrderedIT,step07_deleteUser,null,null,null
+
+
+# Created at 2026-04-16T10:35:55.550
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.authz.UserManagementApiOrderedIT,null,null,null
+
+

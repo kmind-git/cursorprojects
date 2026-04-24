@@ -1,0 +1,6 @@
+# QuickFIX 本体为二进制绑定，安装方式因环境而异：
+# - 有些环境可直接 `pip install quickfix`
+# - 有些需要从第三方 wheel/conda 安装
+#
+# 本文件仅列出纯 Python 依赖（如需）。
+
