@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.example.authz.UserStatusApiTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.905 s - in com.example.authz.UserStatusApiTest
