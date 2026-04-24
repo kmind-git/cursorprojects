@@ -1,0 +1,6 @@
+# Root gitignore for cursorprojects
+
+# --- Logs (generated runtime artifacts) ---
+authz/logs/
+*.log
+
